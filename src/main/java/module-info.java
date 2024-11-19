@@ -2,6 +2,7 @@ module org.clinic {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
+    requires java.dotenv;
 
 
     opens org.clinic.view to javafx.fxml;
